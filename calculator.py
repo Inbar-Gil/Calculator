@@ -39,6 +39,7 @@ class Calculator:
         # If we don't have any operators we wish to exit
         if len(self.operators) == 0:
             print("* We don't support any operators yet")
+            print("*" * PRETTY_TEXT_LENGTH)
             exit()
         print("*" * PRETTY_TEXT_LENGTH)
         while True:
